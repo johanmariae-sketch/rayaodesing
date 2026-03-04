@@ -1,0 +1,5 @@
+node_modules
+dist
+ig-photos
+.DS_Store
+*.local
