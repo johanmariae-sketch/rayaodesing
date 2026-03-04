@@ -80,7 +80,7 @@ export default function Contact() {
                 href="https://wa.me/18495146654"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-playfair italic text-3xl md:text-4xl text-obsidian hover:text-terra transition-colors leading-tight"
+                className="font-inter font-light text-3xl md:text-4xl text-obsidian hover:text-terra transition-colors leading-tight tracking-tight"
               >
                 +1 (849) 514-6654
               </a>
@@ -96,7 +96,7 @@ export default function Contact() {
                 href="https://www.instagram.com/rayaodesign/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-playfair italic text-3xl md:text-4xl text-obsidian hover:text-terra transition-colors leading-tight"
+                className="font-inter font-light text-3xl md:text-4xl text-obsidian hover:text-terra transition-colors leading-tight tracking-tight"
               >
                 @rayaodesign
               </a>
@@ -108,7 +108,7 @@ export default function Contact() {
               <h4 className="font-mono text-[10px] tracking-[0.3em] text-sage uppercase mb-4">
                 Ubicacion
               </h4>
-              <p className="font-playfair italic text-3xl md:text-4xl text-obsidian leading-tight">
+              <p className="font-inter font-light text-3xl md:text-4xl text-obsidian leading-tight tracking-tight">
                 Distrito Nacional, RD
               </p>
             </div>
