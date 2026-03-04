@@ -90,7 +90,7 @@ export default function Philosophy() {
 
           <div className="mt-16 grid grid-cols-3 gap-8 border-t border-ivory/10 pt-10">
             <div>
-              <span className="font-inter font-bold text-2xl md:text-3xl text-terra">
+              <span className="font-mono text-2xl md:text-3xl text-ivory/90 tracking-tight">
                 26+
               </span>
               <p className="mt-1 font-mono text-[10px] text-ivory/40 tracking-wider uppercase">
@@ -98,7 +98,7 @@ export default function Philosophy() {
               </p>
             </div>
             <div>
-              <span className="font-inter font-bold text-2xl md:text-3xl text-terra">
+              <span className="font-mono text-2xl md:text-3xl text-ivory/90 tracking-tight">
                 3
               </span>
               <p className="mt-1 font-mono text-[10px] text-ivory/40 tracking-wider uppercase">
@@ -106,7 +106,7 @@ export default function Philosophy() {
               </p>
             </div>
             <div>
-              <span className="font-inter font-bold text-2xl md:text-3xl text-terra">
+              <span className="font-mono text-2xl md:text-3xl text-ivory/90 tracking-tight">
                 100%
               </span>
               <p className="mt-1 font-mono text-[10px] text-ivory/40 tracking-wider uppercase">

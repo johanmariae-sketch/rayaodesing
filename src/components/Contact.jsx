@@ -71,53 +71,59 @@ export default function Contact() {
 
         {/* Right - Details */}
         <div className="contact-reveal flex flex-col justify-center px-8 md:px-20 py-20">
-          <div className="space-y-12">
-            <div>
-              <h4 className="font-mono text-[10px] tracking-[0.2em] text-sage-dark uppercase mb-3">
+          <div className="space-y-10">
+            <div className="group">
+              <h4 className="font-mono text-[10px] tracking-[0.3em] text-sage uppercase mb-4">
                 WhatsApp
               </h4>
               <a
                 href="https://wa.me/18495146654"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-inter text-xl md:text-2xl text-obsidian hover:text-terra transition-colors"
+                className="font-playfair italic text-3xl md:text-4xl text-obsidian hover:text-terra transition-colors leading-tight"
               >
                 +1 (849) 514-6654
               </a>
             </div>
 
-            <div>
-              <h4 className="font-mono text-[10px] tracking-[0.2em] text-sage-dark uppercase mb-3">
+            <div className="w-full h-[1px] bg-sage/20" />
+
+            <div className="group">
+              <h4 className="font-mono text-[10px] tracking-[0.3em] text-sage uppercase mb-4">
                 Instagram
               </h4>
               <a
                 href="https://www.instagram.com/rayaodesign/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-inter text-xl md:text-2xl text-obsidian hover:text-terra transition-colors"
+                className="font-playfair italic text-3xl md:text-4xl text-obsidian hover:text-terra transition-colors leading-tight"
               >
                 @rayaodesign
               </a>
             </div>
 
-            <div>
-              <h4 className="font-mono text-[10px] tracking-[0.2em] text-sage-dark uppercase mb-3">
+            <div className="w-full h-[1px] bg-sage/20" />
+
+            <div className="group">
+              <h4 className="font-mono text-[10px] tracking-[0.3em] text-sage uppercase mb-4">
                 Ubicacion
               </h4>
-              <p className="font-inter text-xl md:text-2xl text-obsidian">
+              <p className="font-playfair italic text-3xl md:text-4xl text-obsidian leading-tight">
                 Distrito Nacional, RD
               </p>
             </div>
 
-            <div>
-              <h4 className="font-mono text-[10px] tracking-[0.2em] text-sage-dark uppercase mb-3">
+            <div className="w-full h-[1px] bg-sage/20" />
+
+            <div className="group">
+              <h4 className="font-mono text-[10px] tracking-[0.3em] text-sage uppercase mb-4">
                 Horario
               </h4>
-              <p className="font-inter text-lg text-obsidian">
-                Lun - Vie: 9:00 AM - 7:00 PM
+              <p className="font-inter font-light text-2xl md:text-3xl text-obsidian tracking-tight leading-snug">
+                Lun — Vie: 9:00 – 7:00 PM
               </p>
-              <p className="font-inter text-lg text-obsidian/70">
-                Sab: 10:00 AM - 2:00 PM
+              <p className="font-inter font-light text-xl md:text-2xl text-obsidian/50 tracking-tight mt-1">
+                Sab: 10:00 – 2:00 PM
               </p>
             </div>
           </div>
